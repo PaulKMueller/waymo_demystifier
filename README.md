@@ -1,4 +1,4 @@
-# waymo_demystifier
+# Finally understand the structure of the Waymo Open Dataset
 This repository collects a set of scripts and documentation to explore the Waymo Open Dataset. It given a detailed overview of the structure of this dataset which makes parsing for specific applications easier
 
 ![](waymo_demystified.png)
@@ -112,3 +112,17 @@ For more information on how the features are represented, see the usage of the s
 ### Other Features:
 
 1. **scenario/id**: A unique identifier for the scenario being described or analyzed.
+
+
+# Ackknowledgements
+
+Of course we could not present the structure of the dataset without it existing in the first place.
+Thank you for that Waymo!
+In case you want to cite the Dataset, use their citations:
+
+@InProceedings{Ettinger_2021_ICCV, author={Ettinger, Scott and Cheng, Shuyang and Caine, Benjamin and Liu, Chenxi and Zhao, Hang and Pradhan, Sabeek and Chai, Yuning and Sapp, Ben and Qi, Charles R. and Zhou, Yin and Yang, Zoey and Chouard, Aur'elien and Sun, Pei and Ngiam, Jiquan and Vasudevan, Vijay and McCauley, Alexander and Shlens, Jonathon and Anguelov, Dragomir}, title={Large Scale Interactive Motion Forecasting for Autonomous Driving: The Waymo Open Motion Dataset}, booktitle= Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)}, month={October}, year={2021}, pages={9710-9719} }
+
+@article{Kan_2023_arxiv, author={Chen, Kan and Ge, Runzhou and Qiu, Hang and Ai-Rfou, Rami and Qi, Charles R. and Zhou, Xuanyu and Yang, Zoey and Ettinger, Scott and Sun, Pei and Leng, Zhaoqi and Mustafa, Mustafa and Bogun, Ivan and Wang, Weiyue and Tan, Mingxing and Anguelov, Dragomir}, title={WOMD-LiDAR: Raw Sensor Dataset Benchmark for Motion Forecasting}, month={April}, journal={arXiv preprint arXiv:2304.03834}, year={2023} }
+
+Also, check out their tutorial notebooks and repository at ![Waymo Repository](https://github.com/waymo-research/waymo-open-dataset).
+Get the dataset via the following link: ![Waymo Dataset](https://www.waymo.com/open)
