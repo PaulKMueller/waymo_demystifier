@@ -61,12 +61,12 @@ def parse_tfrecord(tfrecord_path) -> str:
 
 
 # Provide the path to your TFRecord file
-with open("config.yml") as config:
+with open("../config.yml") as config:
     config = yaml.safe_load(config)
     tfrecord_path = config["tfrecord_path"]
 
 structure = parse_tfrecord(tfrecord_path)
 
 
-with open("data/scenario_structure.txt", "w") as file:
+with open("../data/scenario_structure.txt", "w") as file:
     file.write(str(structure))
