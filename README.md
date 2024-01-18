@@ -1,5 +1,6 @@
 # Finally understand the structure of the Waymo Open Dataset
-This repository collects a set of scripts and documentation to explore the Waymo Open Dataset. It given a detailed overview of the structure of this dataset which makes parsing for specific applications easier
+
+This repository collects a set of scripts and documentation to explore the Waymo Open Dataset. It gives a more detailed overview of the structure of this dataset which makes parsing for specific applications easier.
 
 ![](waymo_demystified.png)
 
@@ -14,12 +15,13 @@ conda env create --file environment.yml
 
 # This command creates the file "scenario_structure".
 # The path for the TFRecord file to be parsed should be included in the config.yml.
-python get_waymo_structure
+python get_waymo_structure.py
 ```
 
 An example of a parsed scenario is included (see data/scenario_example_structure.txt).
 
 # Explanation of the Waymo Features
+
 Unfortunately, it can be quite hard to get into doing research with the Waymo Open Dataset because it is hard
 to get your hands on explicit information on how the dataset is structured and what the different features mean.
 This repository tries to solve this issue.
@@ -112,7 +114,6 @@ For more information on how the features are represented, see the usage of the s
 ### Other Features:
 
 1. **scenario/id**: A unique identifier for the scenario being described or analyzed.
-
 
 # Ackknowledgements
 
